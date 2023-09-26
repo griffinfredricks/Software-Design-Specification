@@ -2,7 +2,7 @@
 
 ## Team Members:
 - Layth Oro
-- Griffin Fredericks
+- Griffin Fredricks
 - Nathan Maayah
 - Jacob Adajar
 
