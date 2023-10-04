@@ -4,7 +4,7 @@
 - Layth Oro
 - Griffin Fredricks
 - Nathan Maayah
-- Jacob Adajar
+- Jaecob Adajar
 
 ---
 
