@@ -129,7 +129,7 @@ Methods:
 </pre>
 
 ## Development Plan and Timeline 
-Development Plan and Timeline:
+<pre>
 
 Partitioning of Tasks:
 
@@ -210,7 +210,7 @@ Responsible: All team members
 Task: Project Documentation & Handover
 Duration: 7 days
 Responsible: Layth, Jaecob
-
+</pre>
 ### Gantt Chart
 <img width="1286" alt="Screen Shot 2023-10-04 at 5 58 18 PM" src="https://github.com/griffinfredricks/Software-Design-Specification/assets/67619675/b71798b9-f931-42ae-9c42-00c6c6e1fd08">
 
