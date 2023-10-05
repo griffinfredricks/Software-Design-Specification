@@ -18,72 +18,71 @@ Development Plan and Timeline:
 Partitioning of Tasks:
 1. Project Initialization:
 Task: Project Kick-off Meeting
-Duration: 1 day
-Responsible: All team members (Layth, Nathan, Griffin, Jacob)
+Duration: 3 day
+Responsible: All team members (Layth, Nathan, Griffin, Jaecob)
 2. Requirement Gathering:
 Task: User Requirement Analysis
-Duration: 3 days
+Duration: 5 days
 Responsible: Layth, Nathan
 Task: System Requirement Analysis
-Duration: 3 days
-Responsible: Griffin, Jacob
+Duration: 5 days
+Responsible: Griffin, Jaecob
 3. System Design:
 Task: Database Design
-Duration: 4 days
+Duration: 7 days
 Responsible: Nathan
 Task: System Architecture Design
-Duration: 4 days
+Duration: 9 days
 Responsible: Griffin
 Task: User Interface Mockups
-Duration: 3 days
+Duration: 4 days
 Responsible: Layth
 4. Development Phase:
 Task: Backend Development
-Duration: 10 days
-Responsible: Jacob, Nathan
+Duration: 14 days
+Responsible: Jaecob, Nathan
 Task: Frontend Development
-Duration: 8 days
+Duration: 11 days
 Responsible: Layth, Griffin
 Task: Integration of Frontend and Backend
-Duration: 4 days
-Responsible: Griffin, Jacob
+Duration: 8 days
+Responsible: Griffin, Jaecob
 5. Testing Phase:
 Task: Unit Testing
-Duration: 5 days
+Duration: 7 days
 Responsible: Nathan
 Task: System Testing
-Duration: 4 days
+Duration: 6 days
 Responsible: Layth
 Task: User Acceptance Testing
-Duration: 3 days
+Duration: 5 days
 Responsible: All team members
 6. Deployment:
 Task: Deployment to Production Environment
-Duration: 2 days
-Responsible: Jacob
+Duration: 4 days
+Responsible: Jaecob
 7. Feedback & Iteration:
 Task: Collect User Feedback
-Duration: 3 days
+Duration: 7 days
 Responsible: Layth
 Task: Iterative Improvements based on Feedback
-Duration: 5 days
+Duration: 7 days
 Responsible: Griffin, Nathan
 8. Documentation & Training:
 Task: System Documentation
-Duration: 4 days
-Responsible: Jacob, Layth
+Duration: 6 days
+Responsible: Jaecob, Layth
 Task: User Training Sessions
-Duration: 3 days
+Duration: 5 days
 Responsible: Nathan, Griffin
 9. Project Closure:
 Task: Final Review Meeting
-Duration: 1 day
+Duration: 7 day
 Responsible: All team members
 Task: Project Documentation & Handover
-Duration: 2 days
-Responsible: Layth, Jacob
+Duration: 7 days
+Responsible: Layth, Jaecob
 
 ### Gantt Chart
 <img width="1286" alt="Screen Shot 2023-10-04 at 5 58 18 PM" src="https://github.com/griffinfredricks/Software-Design-Specification/assets/67619675/fc9291dc-c1fc-4afa-9f7e-3b917aa67992">
 
-![image](https://github.com/griffinfredricks/Software-Design-Specification/assets/145627996/fa798bc3-3a9c-4783-9fe7-d8da4fe5c9fe)
