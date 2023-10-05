@@ -133,13 +133,13 @@ Methods:
 
 Partitioning of Tasks:
 
-**1. Project Initialization:**
+1. Project Initialization:
   
 Task: Project Kick-off Meeting
 Duration: 3 day
 Responsible: All team members (Layth, Nathan, Griffin, Jaecob)
 
-**2. Requirement Gathering:**
+2. Requirement Gathering:
   
 Task: User Requirement Analysis
 Duration: 5 days
@@ -149,7 +149,7 @@ Task: System Requirement Analysis
 Duration: 5 days
 Responsible: Griffin, Jaecob
 
-**3. System Design:**
+3. System Design:
   
 Task: Database Design
 Duration: 7 days
@@ -163,7 +163,7 @@ Task: User Interface Mockups
 Duration: 4 days
 Responsible: Layth
 
-**4. Development Phase:**
+4. Development Phase:
   
 Task: Backend Development
 Duration: 14 days
@@ -177,7 +177,7 @@ Task: Integration of Frontend and Backend
 Duration: 8 days
 Responsible: Griffin, Jaecob
 
-**5. Testing Phase:**
+5. Testing Phase:
   
 Task: Unit Testing
 Duration: 7 days
@@ -191,13 +191,13 @@ Task: User Acceptance Testing
 Duration: 5 days
 Responsible: All team members
 
-**6. Deployment:**
+6. Deployment:
   
 Task: Deployment to Production Environment
 Duration: 4 days
 Responsible: Jaecob
 
-**7. Feedback & Iteration:**
+7. Feedback & Iteration:
   
 Task: Collect User Feedback
 Duration: 7 days
@@ -207,7 +207,7 @@ Task: Iterative Improvements based on Feedback
 Duration: 7 days
 Responsible: Griffin, Nathan
 
-**8. Documentation & Training:**
+8. Documentation & Training:
   
 Task: System Documentation
 Duration: 6 days
@@ -217,7 +217,7 @@ Task: User Training Sessions
 Duration: 5 days
 Responsible: Nathan, Griffin
 
-**9. Project Closure:**
+9. Project Closure:
   
 Task: Final Review Meeting
 Duration: 7 day
