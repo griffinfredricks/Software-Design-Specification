@@ -12,7 +12,12 @@
 
 ### Brief Overview of System:
 ElderCare is a comprehensive software solution designed to empower elderly individuals residing in nursing homes to order essential items with ease. The system allows elders to place orders for various items through a user-friendly interface, and these orders are delivered directly to their location within the nursing home. This system ensures that the elderly have timely and convenient access to the items they need, enhancing their comfort and well-being.
+
+## Software Architecture Overview
+# Architectural Diagram of All Major Components:
 ![0002](https://github.com/griffinfredricks/Software-Design-Specification/assets/91572119/3925bc2f-0d04-4397-84e8-9092c9d387f9)
+
+## UML Diagram
 ![0001](https://github.com/griffinfredricks/Software-Design-Specification/assets/91572119/e0bd460f-a678-4c64-af41-a2c99406e788)
 
 
