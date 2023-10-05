@@ -129,10 +129,15 @@ checkout(): Proceeds to checkout for payment and order placement.
 
 ## Development Plan and Timeline 
 Development Plan and Timeline:
+
 Partitioning of Tasks:
+
 1. Project Initialization:
+
 Task: Project Kick-off Meeting
+
 Duration: 3 day
+
 Responsible: All team members (Layth, Nathan, Griffin, Jaecob)
 
 2. Requirement Gathering:
