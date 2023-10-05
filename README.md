@@ -16,14 +16,14 @@ ElderCare is a comprehensive software solution designed to empower elderly indiv
 ## UML Class Descriptions
 ## UML Class Descriptions
 1. User Class: 
-Attributes: 
+Attributes:
 userID (int): A unique identifier for each user. 
 name (String): The name of the user. 
 roomNumber (int): The room number where the user resides within the nursing home. 
 Methods: 
 placeOrder(itemID: int, quantity: int): Allows the user to place an order by specifying the item ID and quantity. 
 
-2. Item Class: 
+3. Item Class: 
 Attributes: 
 itemID (int): A unique identifier for each item. 
 itemName (String): The name of the item. 
@@ -31,7 +31,7 @@ price (double): The price of the item.
 Methods: 
 checkAvailability() -> bool: Checks whether the item is available in the inventory. 
 
-3. Order Class: 
+4. Order Class: 
 Attributes: 
 orderID (int): A unique identifier for each order. 
 userID (int): The ID of the user who placed the order. 
@@ -40,7 +40,7 @@ Methods:
 calculateTotal() -> double: Calculates the total price of the order. 
 processOrder(): Processes the order for delivery. 
 
-4. Delivery Class: 
+5. Delivery Class: 
 Attributes: 
 deliveryID (int): A unique identifier for each delivery. 
 orderID (int): The ID of the order to be delivered. 
@@ -48,14 +48,14 @@ Methods:
 scheduleDelivery(): Schedules the delivery of the order. 
 completeDelivery(): Marks the delivery as complete. 
 
-5. Inventory Class: 
+6. Inventory Class: 
 Attributes: 
 inventoryID (int): A unique identifier for the inventory. 
 items (List): A list of items available in the inventory. 
 Methods: 
 updateInventory(itemID: int, quantity: int): Updates the inventory by adding or removing items based on the item ID and quantity. 
 
-6. Notification Class: 
+7. Notification Class: 
 Attributes: 
 notificationID (int): A unique identifier for each notification. 
 userID (int): The ID of the user to whom the notification is sent. 
@@ -67,7 +67,7 @@ Methods:
 sendNotification(): Sends a notification to the user. 
 markAsRead(): Marks the notification as read. 
 
-7. Admin Class: 
+8. Admin Class: 
 Attributes: 
 adminID (int): A unique identifier for each admin. 
 name (String): The name of the admin. 
@@ -75,7 +75,7 @@ Methods:
 manageInventory(): Allows the admin to manage the inventory. 
 manageOrders(): Allows the admin to manage orders. 
 
-8. Feedback Class: 
+9. Feedback Class: 
 Attributes: 
 feedbackID (int): A unique identifier for each feedback. 
 userID (int): The ID of the user who gives the feedback. 
