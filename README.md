@@ -23,6 +23,7 @@ ElderCare is a comprehensive software solution designed to empower elderly indiv
 
 
 ## UML Class Descriptions
+<pre>
 1. User Class: 
 Attributes:
 userID (int): A unique identifier for each user. 
@@ -125,7 +126,7 @@ Methods:
 addItem(itemID: int): Adds an item to the cart. 
 removeItem(itemID: int): Removes an item from the cart. 
 checkout(): Proceeds to checkout for payment and order placement. 
-
+</pre>
 
 ## Development Plan and Timeline 
 Development Plan and Timeline:
