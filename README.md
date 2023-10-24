@@ -315,5 +315,40 @@ Responsible: Layth, Jaecob
     assert(delivery.getStatus() == "Scheduled"); 
     ``` 
   - **Expected Result**: Delivery is scheduled correctly.
+ 
+**Test Set 3: System Testing**
+- **Test Set 1: End-to-End Testing**
+- **Test 1.1: Complete System Test**
+  - **Objective**: Ensure that all components of the ElderCare system work together seamlessly.
+  - **Test Steps**: 
+    1. User logs in
+    2. User places an order
+    3. Order is processed, and delivery is scheduled
+    4. User receives a confirmation
+  - **Code Example**: 
+    ```cpp
+    User user("John Doe");
+    Order order = user.placeOrder({"item1", "item2"});
+    Delivery delivery = order.scheduleDelivery();
+    Confirmation confirmation = order.processOrder();
+    assert(confirmation.getStatus() == "Confirmed");
+    assert(delivery.getStatus() == "Scheduled");
+    ```
+  - **Expected Result**: The entire process from order placement to confirmation works seamlessly.
+  
+- **Test 1.2: High Load Performance Test**
+  - **Objective**: Test the system’s performance under high load to ensure stability.
+  - **Test Steps**: 
+    1. Simulate a large number of users placing orders simultaneously.
+  - **Code Example**: 
+    ```cpp
+    std::vector<User> users;
+    for (int i = 0; i < 1000; ++i) {
+      users.push_back(User("User " + std::to_string(i)));
+      users[i].placeOrder({"item1", "item2"});
+    }
+
+  - **Expected Result**: The system remains stable and responsive
+
 
 
