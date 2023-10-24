@@ -233,4 +233,18 @@ Responsible: Layth, Jaecob
 
 ## Verification Test Plan
 
+# 1. Unit Testing:
+**Test Set 1: Functionality Testing**
+- **Test 1.1: `placeOrder` Method in `User` Class**
+  - **Objective**: Ensure that the `placeOrder` method correctly places an order and updates the user’s order history.
+  - **Test Data**: Valid item IDs, user details.
+  - **Code Example**: 
+    ```cpp
+    User user("John Doe");
+    Order order = user.placeOrder({"item1", "item2"});
+    assert(user.orderHistoryContains(order));
+    ```
+  - **Expected Result**: The order is placed successfully, and the user’s order history is updated.
+![image](https://github.com/griffinfredricks/Software-Design-Specification/assets/67619675/75f22552-5b82-4ec4-a483-a8dcdf1df212)
+
 
