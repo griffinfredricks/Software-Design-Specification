@@ -246,7 +246,7 @@ Responsible: Layth, Jaecob
     ```
   - **Expected Result**: The order is placed successfully, and the user’s order history is updated.
     
- **Test 1.2: `calculateTotal` Method in `Order` Class**
+- **Test 1.2: `calculateTotal` Method in `Order` Class**
   - **Objective**: Verify that the `calculateTotal` method accurately calculates the total price of the order.
   - **Test Data**: List of items with known prices.
   - **Code Example**: 
