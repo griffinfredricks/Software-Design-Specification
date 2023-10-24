@@ -245,6 +245,16 @@ Responsible: Layth, Jaecob
     assert(user.orderHistoryContains(order));
     ```
   - **Expected Result**: The order is placed successfully, and the user’s order history is updated.
-
+    
+ **Test 1.2: `calculateTotal` Method in `Order` Class**
+  - **Objective**: Verify that the `calculateTotal` method accurately calculates the total price of the order.
+  - **Test Data**: List of items with known prices.
+  - **Code Example**: 
+    ```cpp
+    Order order({"item1", "item2"});
+    double total = order.calculateTotal();
+    assert(total == 15.00); // Assuming item1 is $10 and item2 is $5
+    ```
+  - **Expected Result**: The total price is calculated correctly.
 
 
