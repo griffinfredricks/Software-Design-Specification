@@ -245,6 +245,6 @@ Responsible: Layth, Jaecob
     assert(user.orderHistoryContains(order));
     ```
   - **Expected Result**: The order is placed successfully, and the user’s order history is updated.
-![image](https://github.com/griffinfredricks/Software-Design-Specification/assets/67619675/75f22552-5b82-4ec4-a483-a8dcdf1df212)
+
 
 
