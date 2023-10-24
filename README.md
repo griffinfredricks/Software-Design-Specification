@@ -256,5 +256,64 @@ Responsible: Layth, Jaecob
     assert(total == 15.00); // Assuming item1 is $10 and item2 is $5
     ```
   - **Expected Result**: The total price is calculated correctly.
+  - #### 2. Functional Testing: 
+**Test Set 1: Feature Testing** 
+- **Test 1.1: Order Placement Process** 
+  - **Objective**: Test the entire order placement process from start to finish. 
+  - **Test Steps**:  
+    1. User logs in. 
+    2. User places an order. 
+    3. User receives a confirmation. 
+  - **Code Example**:  
+    ```cpp 
+    User user("John Doe"); 
+    Order order = user.placeOrder({"item1", "item2"}); 
+    Confirmation confirmation = order.processOrder(); 
+    assert(confirmation.getStatus() == "Confirmed"); 
+    ``` 
+  - **Expected Result**: The order is placed successfully, and a confirmation is received. 
+
+- **Test 1.2: Feedback Submission Process** 
+  - **Objective**: Ensure that the feedback submission process works correctly. 
+  - **Test Steps**:  
+    1. User submits feedback. 
+    2. Feedback is stored in the database. 
+  - **Code Example**:  
+    ```cpp 
+    User user("John Doe"); 
+    Feedback feedback = user.submitFeedback("Everything was great!"); 
+    assert(feedback.getStatus() == "Stored"); 
+    ``` 
+  - **Expected Result**: Feedback is submitted and stored correctly. 
+
+**Test Set 2: Integration Testing** 
+- **Test 2.1: Integration between `Order Processing` and `Inventory Management`** 
+  - **Objective**: Ensure that the inventory is updated correctly after an order is placed. 
+  - **Test Steps**:  
+    1. User places an order. 
+    2. Inventory is checked and updated. 
+  - **Code Example**:  
+    ```cpp 
+    Inventory inventory; 
+    int initialStock = inventory.getStock("item1"); 
+    Order order({"item1"}); 
+    order.processOrder(); 
+    int finalStock = inventory.getStock("item1"); 
+    assert(finalStock == initialStock - 1); 
+    ``` 
+  - **Expected Result**: Inventory is updated correctly. 
+
+- **Test 2.2: Integration between `Order Processing` and `Delivery Management`** 
+  - **Objective**: Ensure that deliveries are scheduled correctly after an order is placed. 
+  - **Test Steps**:  
+    1. User places an order. 
+    2. Delivery is scheduled. 
+  - **Code Example**:  
+    ```cpp 
+    Order order({"item1"}); 
+    Delivery delivery = order.scheduleDelivery(); 
+    assert(delivery.getStatus() == "Scheduled"); 
+    ``` 
+  - **Expected Result**: Delivery is scheduled correctly.
 
 
