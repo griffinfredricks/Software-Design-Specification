@@ -350,5 +350,35 @@ Responsible: Layth, Jaecob
 
   - **Expected Result**: The system remains stable and responsive
 
+ **Test Set 2: Security and Data Integrity Testing**
+- **Test 2.1: Security Measures Test**
+  - **Objective**: Ensure that the system’s security measures are effective in protecting user data.
+  - **Test Steps**: 
+    1. Attempt to access or modify user data without proper authorization.
+  - **Code Example**: 
+    ```cpp
+    User unauthorizedUser("Hacker");
+    try {
+      unauthorizedUser.accessUserData("John Doe");
+    } catch (const std::security_error& e) {
+      assert(strcmp(e.what(), "Unauthorized access") == 0);
+    }
+    ```
+  - **Expected Result**: Unauthorized access or modification is prevented.
+  
+- **Test 2.2: Data Integrity Test**
+  - **Objective**: Ensure that no data is lost or corrupted during transactions.
+  - **Test Steps**: 
+    1. Place an order and check the integrity of the data stored in the database.
+  - **Code Example**: 
+    ```cpp
+    User user("John Doe");
+    Order order = user.placeOrder({"item1", "item2"});
+    order.processOrder();
+    assert(checkDataIntegrity(order));
+    ```
+  - **Expected Result**: Data integrity is maintained.
+
+
 
 
