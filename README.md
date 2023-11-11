@@ -395,6 +395,15 @@ especially vital in systems handling orders and payments.
 queries, like joining multiple tables to link orders with users
 and items, which SQL databases handle efficiently
 
+## Our Design Decisions:
+ - **Single vs. Multiple Databases:**
+ We opted for a single database approach, focusing on simplicity and maintaining data integrity across various entities like users, orders, and items.
+ This single-database system is advantageous for transactional systems where operations span multiple tables, necessitating atomic transactions.
+ - **Logical Data Splitting:**
+ Data was logically divided into different tables based on their relationships, such as User, Order, Item, and Order_Item.
+ This approach aids in minimizing redundancy and instead places a focus on integrity.
+
+
 ## Our Consideration of Alternatives and Trade- offs:
 - **NoSQL Alternative:** We considered NoSQL for parts of our system that might handle unstructured data or require highly scalable read/write operations, which is an advantage of NoSQL.
 - **(Trade-Off):** However, NoSQL doesn’t provide the same ease of complex queries and transactional integrity that SQL databases offer.
