@@ -381,6 +381,7 @@ Responsible: Layth, Jaecob
 
 
 
+<img width="1300" alt="Screenshot 2023-11-10 at 9 38 40 PM" src="https://github.com/griffinfredricks/Software-Design-Specification/assets/91572119/e43754e6-87cb-4a22-ad25-a60720830ca5">
 
 
 ## Our SQL Database Choice:
