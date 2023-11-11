@@ -382,3 +382,16 @@ Responsible: Layth, Jaecob
 
 
 
+
+**Our SQL Database Choice:**
+- **Structured Schema:** We chose a relational database due to
+the clear relationships in our data, such as users placing
+orders and orders containing items. This structure is a key
+feature of relational databases.
+- **ACID Compliance:** We prioritized transactional integrity,
+ensuring Atomicity, Consistency, Isolation, and Durability,
+especially vital in systems handling orders and payments.
+- **Complex Queries:** We recognized the need for complex
+queries, like joining multiple tables to link orders with users
+and items, which SQL databases handle efficiently
+
