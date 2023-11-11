@@ -395,6 +395,13 @@ especially vital in systems handling orders and payments.
 queries, like joining multiple tables to link orders with users
 and items, which SQL databases handle efficiently
 
+## Our Consideration of Alternatives and Trade- offs:
+- **NoSQL Alternative:** We considered NoSQL for parts of our system that might handle unstructured data or require highly scalable read/write operations, which is an advantage of NoSQL.
+- **(Trade-Off):** However, NoSQL doesn’t provide the same ease of complex queries and transactional integrity that SQL databases offer.
+- **Hybrid Approach:**
+We examined using a combination of SQL for transactional data and NoSQL for unstructured or semi- structured data.
+- **(Trade-Off):** This would cause a more strenuous managing and integrating different database types.
+
 ## Our Conclusion: 
 The SQL Database that we chose to use came from the fact that we plan on having a large network of residents and retirement homes/old using eldercare so having a consistent and structured data management system was important. On top of this, with heavy transactional use through the orders of the residents, we need to ensure that the database holds up its integrity throughout. We chose this over other non technical techniques due to the nature of ElderCare being heavily transaction based 
 
