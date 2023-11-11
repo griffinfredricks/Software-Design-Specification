@@ -395,3 +395,6 @@ especially vital in systems handling orders and payments.
 queries, like joining multiple tables to link orders with users
 and items, which SQL databases handle efficiently
 
+## Our Conclusion: 
+The SQL Database that we chose to use came from the fact that we plan on having a large network of residents and retirement homes/old using eldercare so having a consistent and structured data management system was important. On top of this, with heavy transactional use through the orders of the residents, we need to ensure that the database holds up its integrity throughout. We chose this over other non technical techniques due to the nature of ElderCare being heavily transaction based 
+
