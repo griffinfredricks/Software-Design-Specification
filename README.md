@@ -383,7 +383,7 @@ Responsible: Layth, Jaecob
 
 
 
-#Our SQL Database Choice:
+## Our SQL Database Choice:
 - **Structured Schema:** We chose a relational database due to
 the clear relationships in our data, such as users placing
 orders and orders containing items. This structure is a key
